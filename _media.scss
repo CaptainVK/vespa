@@ -248,9 +248,14 @@
 
 
 @media (max-width:500px){
+  
+  .content{
+    height:100vh;
+  }
   .page{
     height:100%;
   }
+  
   // header
 #header{
   width:0;
