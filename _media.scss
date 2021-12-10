@@ -189,7 +189,7 @@
 
   #footer{
     
-      height: 100%;
+      
      
      .social__group{
       display: flex;
@@ -248,7 +248,9 @@
 
 
 @media (max-width:500px){
-  
+  .page{
+    height:100%;
+  }
   // header
 #header{
   width:0;
@@ -313,6 +315,7 @@
    .txt{
      width:100%;
      justify-content: flex-start;
+     
    }
           
 
@@ -488,7 +491,7 @@
         margin: .5rem auto;
         padding: 0 1rem ;
         margin:0.2rem;
-        height:100%;
+        
 
              .information {
          padding: 0 2rem;
