@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {padding: 0;margin: 0;border: 0;box-sizing: border-box;}
+a:focus,a:active{outline:none;}
+a{text-decoration: none;}
+a{color:unset;}
+html{height:100%;}
+body{min-height:100%}
+body{min-width: 330px;}
+html:focus-within {scroll-behavior: smooth;}
+body {line-height: 1.2;}
+img { max-width: 100%; display:block;}
+ol, ul {  list-style: none;}
+li,button{cursor:pointer;}
